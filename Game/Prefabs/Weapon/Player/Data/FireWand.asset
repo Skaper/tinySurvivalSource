@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9d79758fb0a1b4da376d454c953115, type: 3}
+  m_Name: FireWand
+  m_EditorClassIdentifier: 
+  Spawner: {fileID: -1543333552827844219, guid: 3b7e57341b9466b40b322e0921003c92,
+    type: 3}
+  weaponNameKey: Weapon.Name.FireWand
+  parent: 0
+  weaponType: 5
+  attackPower: 15
+  attackSpeed: 4
+  weaponSprite: {fileID: 21300000, guid: e2d86c3420cec554fb9cff43a7879f6c, type: 3}
+  descriptionKey: Weapon.Description.FireWand
+  description: Fires at a random enemy, deals heavy damage
+  basePosition: {x: 0, y: 0.5}
+  baseScale: {x: 1, y: 1}
+  WeaponSound:
+    Guid:
+      Data1: 1433767550
+      Data2: 1156477218
+      Data3: 181216928
+      Data4: 1267767192
+    Path: event:/Gameplay/Spells/FireWand
+  isAnimated: 1
+  useAnimationTime: 0
+  inactiveDelay: 4

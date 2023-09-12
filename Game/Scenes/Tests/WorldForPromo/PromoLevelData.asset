@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152a88f8388fe5d4292daed1535ba7f3, type: 3}
+  m_Name: PromoLevelData
+  m_EditorClassIdentifier: 
+  World: {fileID: 4271818482743616504, guid: 2497d6ea1f2913d4e84a415462a8afe8, type: 3}
+  Player: {fileID: 4499973952021811266, guid: 9ba81e29dfc09b44ba6991768455fd20, type: 3}
+  EnemySpawner: {fileID: 130119116770808119, guid: 1441e55c56210ab4e8e74f05d9b9c3f8,
+    type: 3}
+  InGameUI: {fileID: 374109409177276510, guid: 398a0fccd7e65ec41a2cc01986acbf95, type: 3}
+  Items:
+  - {fileID: 1717472992084338987, guid: 22ae88519a5556b4d961f19b49fa7e59, type: 3}
+  - {fileID: 8127273583160782562, guid: bcd918f184306b846b388e0be0b1d8a6, type: 3}
+  - {fileID: 4569206920028945288, guid: 2657196ecc3a62f4aba334e16c562409, type: 3}
+  - {fileID: 8765894567960712940, guid: 25ad0753141180a45bdd83ba10954eca, type: 3}
+  - {fileID: 1350739682985893469, guid: 96a9c1ccfcf3d354e828250141ea422e, type: 3}
+  - {fileID: 1802899269896327912, guid: 5e9f0f09b46950a4e8c8b653c6208ea9, type: 3}
+  PlayerWeapons:
+  - {fileID: 274621957424571527, guid: 10c5f24372d61de4f86bbf7e6d6b0c11, type: 3}
+  - {fileID: 1702502632780516099, guid: 9c928a0aef3258d4eba6b095e3ad8459, type: 3}
+  - {fileID: 5791356045894905302, guid: b6deb69bcb573104b85d82dca4e24a4a, type: 3}
+  - {fileID: 6272377645814165186, guid: 290ef5b7e2549cf4188a5f38090c98bf, type: 3}
+  - {fileID: 5331857637126794620, guid: ed78762a4e5119c44b50488ab2934e51, type: 3}
+  - {fileID: 2855942025031640945, guid: ec70fe3c938acd04fb8297a425422c29, type: 3}
+  - {fileID: 487008144944359368, guid: 58a24b0f4e2a9ae4a803a570411caf1d, type: 3}
+  - {fileID: 5882057104239163312, guid: 9eb93ab7647a63647b366b42d9cdd789, type: 3}
+  EnemyWeapons:
+  - {fileID: 1661317270705690154, guid: 4737d474f08d6eb41b8b48c7ebc194af, type: 3}
+  - {fileID: 4180804547474585218, guid: cf1da53e5fc65824ea3e042ca3128fa3, type: 3}
+  - {fileID: 4565388061030585114, guid: 5e2bc67d08804d74ba119b97275978af, type: 3}
+  - {fileID: 4565388061030585114, guid: 4cde67ab30a3fd14bafceb76115014ce, type: 3}
+  - {fileID: -6481124026575732592, guid: 7f48b3fed38030c4fb675d6f6769a622, type: 3}
+  - {fileID: 2442135641208238877, guid: b2d23d07e8f0bb84a8a813a1b58b7ac5, type: 3}
+  - {fileID: 2442135641208238877, guid: a2c8551b59489cf41aba2e77c0738d2d, type: 3}
+  - {fileID: 2169704599435447632, guid: 84edd3d272e2ce74488989bbab2d67bf, type: 3}
+  PlayerAccessoriesData:
+  - {fileID: 11400000, guid: fb0635894b171a248ae7242dab321590, type: 2}
+  - {fileID: 11400000, guid: cefa9be604d4993418e99fc13d6ef25f, type: 2}
+  - {fileID: 11400000, guid: 49cdfcfb9ddbc074ebfde80c761010a3, type: 2}
+  - {fileID: 11400000, guid: e62e1463b6d85ca408a43d991acd9683, type: 2}
+  - {fileID: 11400000, guid: 2e45dfd952c944c4b9d8e988e4be672b, type: 2}
+  - {fileID: 11400000, guid: 7d3fdb580ffb703429aebf0af9eaa55f, type: 2}
+  ParticleItems:
+  - {fileID: 8548662083601572082, guid: f9f8a12cfa9700447bb0c7b4b9a43338, type: 3}
+  Stages:
+  - name: 'Stage 1| E: Zombie,Creeper,Skeleton,SkeletonWizzardELITGreen,SlimeSmall,
+      | B: '
+    SpawnDelay: 0.1
+    Duration: 60
+    Bosses: []
+    Enemies:
+    - name: Zombie
+      Level: 0
+      Percent: 0.95
+      Unit: {fileID: 6263486735999994307, guid: 0fb504c5494740246a7eae4d4b0fde8c,
+        type: 3}
+      CountInPool: 25
+    - name: Creeper
+      Level: 0
+      Percent: 0.513
+      Unit: {fileID: 8991827769850000147, guid: 4459b01e13aca69418ace254f4f87eb5,
+        type: 3}
+      CountInPool: 25
+    - name: Skeleton
+      Level: 0
+      Percent: 0.513
+      Unit: {fileID: 5801287504610896245, guid: 06c51d203cddfde40b6c80a40249084c,
+        type: 3}
+      CountInPool: 25
+    - name: SkeletonWizzardELITGreen
+      Level: 0
+      Percent: 0.513
+      Unit: {fileID: 4950755720203277616, guid: 86b0ff8c1a591444eabf8e027dc96700,
+        type: 3}
+      CountInPool: 25
+    - name: SlimeSmall
+      Level: 0
+      Percent: 0.513
+      Unit: {fileID: 6244687047704371192, guid: 91212df4fe82813479ce3d10f10d8f2d,
+        type: 3}
+      CountInPool: 25
+  - name: 'Stage 2| E: SlimeSmall,Skeleton, | B: '
+    SpawnDelay: 0.5
+    Duration: 60
+    Bosses: []
+    Enemies:
+    - name: SlimeSmall
+      Level: 1
+      Percent: 0.9
+      Unit: {fileID: 6244687047704371192, guid: 91212df4fe82813479ce3d10f10d8f2d,
+        type: 3}
+      CountInPool: 60
+    - name: Skeleton
+      Level: 1
+      Percent: 0.1
+      Unit: {fileID: 5801287504610896245, guid: 06c51d203cddfde40b6c80a40249084c,
+        type: 3}
+      CountInPool: 25
+  - name: 'Stage 3| E: Bee,Wolf, | B: '
+    SpawnDelay: 0.5
+    Duration: 90
+    Bosses: []
+    Enemies:
+    - name: Bee
+      Level: 0
+      Percent: 0.6
+      Unit: {fileID: 2655480353181808571, guid: 3412f82ce41a06240a2f369ee6e5f4f4,
+        type: 3}
+      CountInPool: 50
+    - name: Wolf
+      Level: 0
+      Percent: 0.4
+      Unit: {fileID: 7170935172336831374, guid: fd19f5082c53fed4296bd75b1e779305,
+        type: 3}
+      CountInPool: 25
+  - name: 'Stage 4| E: Bee,Wolf,SkeletonWizzard, | B: MageStaffBoss,'
+    SpawnDelay: 0.5
+    Duration: 90
+    Bosses:
+    - name: MageStaffBoss
+      Level: 0
+      Percent: 1
+      Unit: {fileID: 2123194494512088524, guid: 7becf71379937bd4fadc9990172d962c,
+        type: 3}
+      CountInPool: 0
+    Enemies:
+    - name: Bee
+      Level: 0
+      Percent: 0.6
+      Unit: {fileID: 2655480353181808571, guid: 3412f82ce41a06240a2f369ee6e5f4f4,
+        type: 3}
+      CountInPool: 50
+    - name: Wolf
+      Level: 0
+      Percent: 0.4
+      Unit: {fileID: 7170935172336831374, guid: fd19f5082c53fed4296bd75b1e779305,
+        type: 3}
+      CountInPool: 25
+    - name: SkeletonWizzard
+      Level: 0
+      Percent: 0.4
+      Unit: {fileID: 3257062977771523789, guid: f6e6f5efbeae4684e98910cdb814d40f,
+        type: 3}
+      CountInPool: 25
+  - name: 'Stage 5| E: ZombieChiken,Zombie,SkeletonWizzard, | B: MageStaffBoss,MageStaffBoss,'
+    SpawnDelay: 0.5
+    Duration: 960
+    Bosses:
+    - name: MageStaffBoss
+      Level: 0
+      Percent: 1
+      Unit: {fileID: 2123194494512088524, guid: 7becf71379937bd4fadc9990172d962c,
+        type: 3}
+      CountInPool: 0
+    - name: MageStaffBoss
+      Level: 0
+      Percent: 1
+      Unit: {fileID: 2123194494512088524, guid: 7becf71379937bd4fadc9990172d962c,
+        type: 3}
+      CountInPool: 0
+    Enemies:
+    - name: ZombieChiken
+      Level: 0
+      Percent: 0.6
+      Unit: {fileID: 799047806607535332, guid: 8fe9947990a4331488264d8298edbf4a, type: 3}
+      CountInPool: 50
+    - name: Zombie
+      Level: 2
+      Percent: 0.4
+      Unit: {fileID: 6263486735999994307, guid: 0fb504c5494740246a7eae4d4b0fde8c,
+        type: 3}
+      CountInPool: 25
+    - name: SkeletonWizzard
+      Level: 0
+      Percent: 0.4
+      Unit: {fileID: 3257062977771523789, guid: f6e6f5efbeae4684e98910cdb814d40f,
+        type: 3}
+      CountInPool: 25

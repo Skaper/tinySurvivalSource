@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf99dfbfbc4f3be49a6531a8e8bc3b21, type: 3}
+  m_Name: LeggingsUpgradeData
+  m_EditorClassIdentifier: 
+  type: 2
+  startIcon: {fileID: -602910042, guid: a538fcc5636062e46b2db0ef2522013d, type: 3}
+  LocalizationKey: Upgrade.Leggings
+  upgrades:
+  - name: stage_0
+    levelsOnStage: 1
+    icon: {fileID: -602910042, guid: a538fcc5636062e46b2db0ef2522013d, type: 3}
+    priceDiamond: 1
+    priceYan: 0
+    UpgrededFields:
+    - name: 5
+      localizationKey: Stats.Luck
+      value: 1
+    - name: 1
+      localizationKey: Stats.Armor
+      value: 5
+  - name: stage_1
+    levelsOnStage: 5
+    icon: {fileID: 1217256949, guid: a538fcc5636062e46b2db0ef2522013d, type: 3}
+    priceDiamond: 2
+    priceYan: 1
+    UpgrededFields:
+    - name: 5
+      localizationKey: Stats.Luck
+      value: 0.1
+    - name: 1
+      localizationKey: Stats.Armor
+      value: 0.5
+  - name: stage_2
+    levelsOnStage: 10
+    icon: {fileID: -420748176, guid: a538fcc5636062e46b2db0ef2522013d, type: 3}
+    priceDiamond: 4
+    priceYan: 2
+    UpgrededFields:
+    - name: 5
+      localizationKey: Stats.Luck
+      value: 0.2
+    - name: 1
+      localizationKey: Stats.Armor
+      value: 1
+  - name: stage_3
+    levelsOnStage: 10
+    icon: {fileID: 89571264, guid: a538fcc5636062e46b2db0ef2522013d, type: 3}
+    priceDiamond: 10
+    priceYan: 4
+    UpgrededFields:
+    - name: 5
+      localizationKey: Stats.Luck
+      value: 0.3
+    - name: 1
+      localizationKey: Stats.Armor
+      value: 1.5
+  - name: stage_4
+    levelsOnStage: 10
+    icon: {fileID: -1520197966, guid: a538fcc5636062e46b2db0ef2522013d, type: 3}
+    priceDiamond: 15
+    priceYan: 4
+    UpgrededFields:
+    - name: 5
+      localizationKey: Stats.Luck
+      value: 0.4
+    - name: 1
+      localizationKey: Stats.Armor
+      value: 2
+  - name: stage_5
+    levelsOnStage: 10
+    icon: {fileID: 1459824105, guid: a538fcc5636062e46b2db0ef2522013d, type: 3}
+    priceDiamond: 20
+    priceYan: 6
+    UpgrededFields:
+    - name: 5
+      localizationKey: Stats.Luck
+      value: 0.5
+    - name: 1
+      localizationKey: Stats.Armor
+      value: 2.5
+  - name: stage_6
+    levelsOnStage: 25
+    icon: {fileID: 252018445, guid: a538fcc5636062e46b2db0ef2522013d, type: 3}
+    priceDiamond: 25
+    priceYan: 8
+    UpgrededFields:
+    - name: 5
+      localizationKey: Stats.Luck
+      value: 1
+    - name: 1
+      localizationKey: Stats.Armor
+      value: 4

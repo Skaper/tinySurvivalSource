@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b956cb672050684489cd77ea256bd36d, type: 3}
+  m_Name: EnemyArrow
+  m_EditorClassIdentifier: 
+  parent: 0
+  weaponType: 0
+  bulletPrefab: {fileID: 4611150334476478481, guid: 84edd3d272e2ce74488989bbab2d67bf,
+    type: 3}
+  attackPower: 30
+  speed: 15
+  cooldown: 2
+  range: 4
+  lifetime: 5
+  bulletSprite: {fileID: -1113633069, guid: b655c0832c3da4c4bab476c72b829acf, type: 3}

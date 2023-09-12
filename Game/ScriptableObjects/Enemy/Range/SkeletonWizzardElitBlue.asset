@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65449227f41cf4f42b7b8c81fbac6c45, type: 3}
+  m_Name: SkeletonWizzardElitBlue
+  m_EditorClassIdentifier: 
+  characterType: 23
+  Levels:
+  - name: Level 0
+    sprite: {fileID: 403645750, guid: b655c0832c3da4c4bab476c72b829acf, type: 3}
+    controller: {fileID: 9100000, guid: 9c5f02264a395f148aabb19d4a9b5fed, type: 2}
+    healthPoint: 100
+    attackPower: 40
+    defencePower: 10
+    speed: 15
+    dropItems: 0300000006000000
+  - name: Level 1
+    sprite: {fileID: 403645750, guid: b655c0832c3da4c4bab476c72b829acf, type: 3}
+    controller: {fileID: 9100000, guid: 9c5f02264a395f148aabb19d4a9b5fed, type: 2}
+    healthPoint: 100
+    attackPower: 40
+    defencePower: 10
+    speed: 15
+    dropItems: 0300000006000000
+  - name: Level 2
+    sprite: {fileID: 403645750, guid: b655c0832c3da4c4bab476c72b829acf, type: 3}
+    controller: {fileID: 9100000, guid: 9c5f02264a395f148aabb19d4a9b5fed, type: 2}
+    healthPoint: 100
+    attackPower: 40
+    defencePower: 10
+    speed: 15
+    dropItems: 0300000006000000

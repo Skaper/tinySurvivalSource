@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db43d56d0ce48ec44ab683f66520a76f, type: 3}
+  m_Name: Shop Level item Data
+  m_EditorClassIdentifier: Assembly-CSharp::ShopLevelItemData
+  itemLevelList:
+  - isActive: 1
+    index: 0
+    id: level_0
+    itemName:
+      name_ru: "\u0412\u0435\u0440\u0445\u043D\u0438\u0439 \u043C\u0438\u0440"
+      name_en: The Overworld
+      name_tr: 
+    icon: {fileID: -1835309392, guid: f1a10a7e0fcb9be45a37fc1824e28590, type: 3}
+    priceDiamond: 0
+    priceYan: 0
+    levelName: Game
+    LevelData: {fileID: 11400000, guid: 212b1ecb3efee5d4583701c465253a92, type: 2}
+  - isActive: 1
+    index: 1
+    id: level_1
+    itemName:
+      name_ru: "\u0417\u0435\u0440\u043A\u0430\u043B\u044C\u043D\u044B\u0439 \u043C\u0438\u0440"
+      name_en: Mirror World
+      name_tr: 
+    icon: {fileID: 1062230054, guid: f1a10a7e0fcb9be45a37fc1824e28590, type: 3}
+    priceDiamond: 10
+    priceYan: 0
+    levelName: Game
+    LevelData: {fileID: 11400000, guid: 4b999f707b8da60459a85d30aba1da11, type: 2}
+  - isActive: 0
+    index: 2
+    id: level_2
+    itemName:
+      name_ru: "\u041B\u0435\u0441"
+      name_en: The Forest
+      name_tr: 
+    icon: {fileID: 0}
+    priceDiamond: 500
+    priceYan: 0
+    levelName: Game
+    LevelData: {fileID: 0}
+  - isActive: 0
+    index: 3
+    id: level_3
+    itemName:
+      name_ru: "\u0410\u0434"
+      name_en: The Hell
+      name_tr: 
+    icon: {fileID: 0}
+    priceDiamond: 500
+    priceYan: 0
+    levelName: Game
+    LevelData: {fileID: 0}

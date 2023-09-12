@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55264f7db639bdb498de1b9afc1deb20, type: 3}
+  m_Name: EmptyTome
+  m_EditorClassIdentifier: 
+  AccessoryController: {fileID: 2996526708263640264, guid: ea32c681c1def6c42aa2424de6bfe739,
+    type: 3}
+  accessoryNameKey: Accessory.Name.EmptyTome
+  accessoryType: 2
+  accessorySprite: {fileID: 21300000, guid: 14847400cb48cb64c93d9e0726b9048d, type: 3}
+  descriptionKey: Accessory.Description.EmptyTome
+  description: Reduces weapons cooldown by 8%

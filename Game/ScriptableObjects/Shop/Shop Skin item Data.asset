@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffcf3007bcd32db44a573bae90d714e8, type: 3}
+  m_Name: Shop Skin item Data
+  m_EditorClassIdentifier: 
+  itemSkinList:
+  - index: 0
+    id: skin_0
+    itemName:
+      name_ru: "\u0421\u0442\u0438\u0432"
+      name_en: Steve
+      name_tr: 
+    icon: {fileID: 21300000, guid: b8954845f37fc344d8acab15e28a3dde, type: 3}
+    priceDiamond: 0
+    priceYan: 0
+    image: {fileID: 2800000, guid: 23c43b1d8c2ef7d42b37d68bd5fbc365, type: 3}
+  - index: 1
+    id: skin_1
+    itemName:
+      name_ru: "\u0410\u043D\u0434\u0440\u043E\u0438\u0434"
+      name_en: Android
+      name_tr: 
+    icon: {fileID: 21300000, guid: 6c54e77a93400c94e816568b77419eb4, type: 3}
+    priceDiamond: 10
+    priceYan: 0
+    image: {fileID: 2800000, guid: 63eafab25310f864497dc1ab7b009cda, type: 3}
+  - index: 2
+    id: skin_2
+    itemName:
+      name_ru: "\u041B\u0438\u0432\u0441\u0438"
+      name_en: Levsy
+      name_tr: 
+    icon: {fileID: 21300000, guid: 13866a6cdc5c4c5468373e11e652bb96, type: 3}
+    priceDiamond: 50
+    priceYan: 0
+    image: {fileID: 2800000, guid: 261e711f71e290d45929fd057dbd5bcf, type: 3}
+  - index: 3
+    id: skin_3
+    itemName:
+      name_ru: "\u041C\u0430\u0439\u043A"
+      name_en: Mike
+      name_tr: 
+    icon: {fileID: 21300000, guid: eace687e631a464478e048d775b5a32a, type: 3}
+    priceDiamond: 100
+    priceYan: 0
+    image: {fileID: 2800000, guid: e62c904c7e54d0245aaad3b597721427, type: 3}
+  - index: 4
+    id: skin_4
+    itemName:
+      name_ru: "\u041D\u0443\u0431\u0438\u043A"
+      name_en: Newbie
+      name_tr: 
+    icon: {fileID: 21300000, guid: 3ecd97a217ddd164a80e9077ca104379, type: 3}
+    priceDiamond: 450
+    priceYan: 0
+    image: {fileID: 2800000, guid: 4aef59ced566d8647b022aa97ddf5c9d, type: 3}
+  - index: 5
+    id: skin_5
+    itemName:
+      name_ru: "\u0421\u0430\u043D\u0441"
+      name_en: Sans
+      name_tr: 
+    icon: {fileID: 21300000, guid: d6cf8f441f55af64b9a4ad994967bde8, type: 3}
+    priceDiamond: 1000
+    priceYan: 0
+    image: {fileID: 2800000, guid: ad0f6955e1d7ffd44a813f7e91bd18a2, type: 3}
+  - index: 6
+    id: skin_6
+    itemName:
+      name_ru: "\u0411\u041E\u0411-\u04106"
+      name_en: BOB-A6
+      name_tr: 
+    icon: {fileID: 21300000, guid: 2a8775fc8e0de6f4abe090dcc5d93a31, type: 3}
+    priceDiamond: 2000
+    priceYan: 22
+    image: {fileID: 2800000, guid: c75627819538dd741beb9bda706ab561, type: 3}

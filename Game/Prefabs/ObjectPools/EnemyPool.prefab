@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6273808285770824599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9055709894298508504}
+  - component: {fileID: 7941853443155176155}
+  m_Layer: 0
+  m_Name: EnemyPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9055709894298508504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273808285770824599}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7941853443155176155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273808285770824599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7802ce0e207aa9e43b24012df4e38373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyList:
+  - EnemeUnit: {fileID: 8860757731110699840, guid: a265a845ef1adc44c87cd497cfcc5ff3,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 2655480353181808571, guid: 3412f82ce41a06240a2f369ee6e5f4f4,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 710177079808703950, guid: 0f9157bb6861fa94c855aa25da28c362,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 8991827769850000147, guid: 4459b01e13aca69418ace254f4f87eb5,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 6244687047704371192, guid: 91212df4fe82813479ce3d10f10d8f2d,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 500419863308229300, guid: 46b2efc05c852734e90a79206a8ef5ce,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 7170935172336831374, guid: fd19f5082c53fed4296bd75b1e779305,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 6263486735999994307, guid: 0fb504c5494740246a7eae4d4b0fde8c,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 799047806607535332, guid: 8fe9947990a4331488264d8298edbf4a,
+      type: 3}
+    EnemyCount: 50
+  - EnemeUnit: {fileID: 5801287504610896245, guid: 06c51d203cddfde40b6c80a40249084c,
+      type: 3}
+    EnemyCount: 25
+  - EnemeUnit: {fileID: 3257062977771523789, guid: f6e6f5efbeae4684e98910cdb814d40f,
+      type: 3}
+    EnemyCount: 25
+  - EnemeUnit: {fileID: 5326513377943784157, guid: 933bf4bf98e1cc4499028a8a07c08e21,
+      type: 3}
+    EnemyCount: 25
+  - EnemeUnit: {fileID: 457470938978373817, guid: b8201c590a3162241846ccb5ebe0c79a,
+      type: 3}
+    EnemyCount: 25
+  - EnemeUnit: {fileID: 6976131094914596917, guid: 0c7959cdf38468e49b8588782daec26e,
+      type: 3}
+    EnemyCount: 25
+  - EnemeUnit: {fileID: 4950755720203277616, guid: 86b0ff8c1a591444eabf8e027dc96700,
+      type: 3}
+    EnemyCount: 25
+  - EnemeUnit: {fileID: 8362360594121154330, guid: c9846649f6a214045aa762117851003d,
+      type: 3}
+    EnemyCount: 25
+  - EnemeUnit: {fileID: 2123194494512088524, guid: 7becf71379937bd4fadc9990172d962c,
+      type: 3}
+    EnemyCount: 1

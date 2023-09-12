@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9d79758fb0a1b4da376d454c953115, type: 3}
+  m_Name: Beholder
+  m_EditorClassIdentifier: 
+  Spawner: {fileID: -5133890927335374891, guid: 8d3f30a91543a0b4890f7a4feb1d7fb9,
+    type: 3}
+  weaponNameKey: Weapon.Name.Beholder
+  parent: 1
+  weaponType: 2
+  attackPower: 10
+  attackSpeed: 6
+  weaponSprite: {fileID: 21300000, guid: cbe2b560740622a4891f7af36b291a99, type: 3}
+  descriptionKey: Weapon.Description.Beholder
+  description: Orbits around the character
+  basePosition: {x: -3, y: 0.5}
+  baseScale: {x: 1, y: 1}
+  WeaponSound:
+    Guid:
+      Data1: -443712778
+      Data2: 1187103987
+      Data3: -344235619
+      Data4: -788917175
+    Path: event:/Gameplay/Spells/Beholder
+  isAnimated: 1
+  useAnimationTime: 0
+  inactiveDelay: 2.5
